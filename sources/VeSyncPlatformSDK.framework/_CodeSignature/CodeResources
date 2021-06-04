@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/VeSyncPlatformSDK-Swift.h</key>
 		<data>
-		WBx/SeuCLatQ7tCKiO1nBaqLLo4=
+		NYtTrTzxDth52YJrHw3g/BaG1Jk=
 		</data>
 		<key>Headers/VeSyncPlatformSDK.h</key>
 		<data>
@@ -15,14 +15,6 @@
 		<key>Info.plist</key>
 		<data>
 		jB7++JVuxXoODARR5vlLw94Yvls=
-		</data>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		ARv9y4DrFRxkqSwTSLoQJrKRLLM=
-		</data>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<data>
-		ARv9y4DrFRxkqSwTSLoQJrKRLLM=
 		</data>
 		<key>Modules/VeSyncPlatformSDK.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
@@ -39,22 +31,6 @@
 		<key>Modules/VeSyncPlatformSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
 		xw9DW/Px12CjX9BGPhVA0Wt/Vfo=
-		</data>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		9AjPuSYeuSTAT79vW0aNrV9N/7k=
-		</data>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		TMLsqwUzYudTMxZFWTD970cShxs=
-		</data>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		9AjPuSYeuSTAT79vW0aNrV9N/7k=
-		</data>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		TMLsqwUzYudTMxZFWTD970cShxs=
 		</data>
 		<key>Modules/VeSyncPlatformSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -99,11 +75,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WBx/SeuCLatQ7tCKiO1nBaqLLo4=
+			NYtTrTzxDth52YJrHw3g/BaG1Jk=
 			</data>
 			<key>hash2</key>
 			<data>
-			+CTvYsraW9DOVZ3NoQIwjFp5/PK6BZT6ho6lJ3dQhiE=
+			RBUC0nLd/OgunvExlJlz3fGOAsX1Tr8TWhvf01MET5w=
 			</data>
 		</dict>
 		<key>Headers/VeSyncPlatformSDK.h</key>
@@ -115,28 +91,6 @@
 			<key>hash2</key>
 			<data>
 			moLqToNG6imH5gHsg3gSblpze/s5wz/2GcYQ8QLF9FE=
-			</data>
-		</dict>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ARv9y4DrFRxkqSwTSLoQJrKRLLM=
-			</data>
-			<key>hash2</key>
-			<data>
-			FYTRtInnLi4ldbD2fnp9YnRKg+B2wOJgIVKrWHABIxM=
-			</data>
-		</dict>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ARv9y4DrFRxkqSwTSLoQJrKRLLM=
-			</data>
-			<key>hash2</key>
-			<data>
-			FYTRtInnLi4ldbD2fnp9YnRKg+B2wOJgIVKrWHABIxM=
 			</data>
 		</dict>
 		<key>Modules/VeSyncPlatformSDK.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
@@ -181,50 +135,6 @@
 			<key>hash2</key>
 			<data>
 			9bGcptL1fx3FIAXuCeyMVWLm2Dy8yqodCAHfs08HUCI=
-			</data>
-		</dict>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9AjPuSYeuSTAT79vW0aNrV9N/7k=
-			</data>
-			<key>hash2</key>
-			<data>
-			8hlqEW5B1Qzq0tjlK65PKINWIzGwt0Izs2PcIfm5jZ0=
-			</data>
-		</dict>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TMLsqwUzYudTMxZFWTD970cShxs=
-			</data>
-			<key>hash2</key>
-			<data>
-			CxI/hdrRS3Oz2zgDDURKDpoJtXx9YNQe7BMv0REdcMU=
-			</data>
-		</dict>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9AjPuSYeuSTAT79vW0aNrV9N/7k=
-			</data>
-			<key>hash2</key>
-			<data>
-			8hlqEW5B1Qzq0tjlK65PKINWIzGwt0Izs2PcIfm5jZ0=
-			</data>
-		</dict>
-		<key>Modules/VeSyncPlatformSDK.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TMLsqwUzYudTMxZFWTD970cShxs=
-			</data>
-			<key>hash2</key>
-			<data>
-			CxI/hdrRS3Oz2zgDDURKDpoJtXx9YNQe7BMv0REdcMU=
 			</data>
 		</dict>
 		<key>Modules/VeSyncPlatformSDK.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>

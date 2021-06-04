@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "VSIOTPlatformSDK"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
   s.summary      = "VSIOTPlatformSDK简介"
@@ -36,6 +36,16 @@ Pod::Spec.new do |s|
   s.dependency 'RxSwift', '~> 5.1.1'
   s.dependency 'RxCocoa', '~> 5.1.1'
   s.dependency 'RxCocoa', '~> 5.1.1'
+  
+  ##pod lib lint指令会报错 xcodebuild: Returned an unsuccessful exit code.
+  ##pod lib lint --verbose 查看具体信息是 App normal arm64
+  ##添加下面两行代码解决问题
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
+
   
   # s.exclude_files = "Classes/Exclude"
   # spec.public_header_files = "Classes/**/*.h"
