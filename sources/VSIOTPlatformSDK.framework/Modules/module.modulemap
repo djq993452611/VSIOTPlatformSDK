@@ -1,0 +1,11 @@
+framework module VSIOTPlatformSDK {
+  umbrella header "VSIOTPlatformSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module VSIOTPlatformSDK.Swift {
+    header "VSIOTPlatformSDK-Swift.h"
+    requires objc
+}

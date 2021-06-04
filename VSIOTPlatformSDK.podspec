@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "VSIOTPlatformSDK"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
   s.summary      = "VSIOTPlatformSDK简介"
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   ##路径添加，远程验证有问题的情况，把路径名字改成小写的文件名(还是验证失败就增加新的tag分支验证发布)
   #s.source_files = "**/public/*", "**/public/**/*"
   ##只做framework资源分享，把source_files文件资源删除，sourceTree提交更新代码
-  ##（因为source路径需要的是开源仓库路径，所以源文件全部删除）
+  ##（因为source路径需要的是开源仓库路径，所以源文件全部删除,只暴露framework资源）
   s.vendored_frameworks = '**/sources/*.framework'
   
   ##依赖的系统动态库
