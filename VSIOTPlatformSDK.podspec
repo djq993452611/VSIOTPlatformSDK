@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "VSIOTPlatformSDK"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
   s.summary      = "VSIOTPlatformSDK简介"
@@ -23,6 +23,8 @@ Pod::Spec.new do |s|
   s.author             = { "JianQi" => "13178331272@163.com" }
   s.source       = { :git => "https://github.com/djq993452611/VSIOTPlatformSDK.git", :tag => s.version }
   s.requires_arc = true
+  s.static_framework = true
+  
   ##路径添加，远程验证有问题的情况，把路径名字改成小写的文件名(还是验证失败就增加新的tag分支验证发布)
   #s.source_files = "**/public/*", "**/public/**/*"
   ##只做framework资源分享，把source_files文件资源删除，sourceTree提交更新代码
@@ -30,7 +32,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = '**/sources/*.framework'
   
   ##依赖的系统动态库
-  s.frameworks = "CoreBluetooth", "Foundation"
+  s.frameworks = 'UIKit', 'Foundation', 'CoreFoundation', "CoreBluetooth"
   
   ##本库添加的第三方依赖库
   s.dependency 'RxSwift', '~> 5.1.1'
