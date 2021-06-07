@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "VSIOTPlatformSDK"
-  s.version      = "0.0.8"
+  s.version      = "0.0.9"
   s.swift_version = '5.0'
   s.ios.deployment_target = '10.0'
   s.summary      = "VSIOTPlatformSDK简介"
